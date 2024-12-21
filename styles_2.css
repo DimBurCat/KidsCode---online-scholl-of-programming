@@ -6,6 +6,7 @@ body {
     margin: 0;
     background: rgb(0, 0, 0);
     position: static;
+    overflow-y: auto;
 }
 
 main {
