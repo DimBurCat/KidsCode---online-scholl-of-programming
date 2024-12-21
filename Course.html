@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-content, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Course.css">
+    <link rel="stylesheet" href="styles_2.css">
+    <title>KidsCode - Онлайн-школа программирования для детей</title>
+    <link rel="icon" href="Photos/icon.png" type="image/x-icon"></link>
+</head>
+<body>
+    <dialog class="menu_window" id="WindowMenu">
+        <section class="menu_window_upper_panel">
+            <article class="menu_window_logo">
+                <img class="header_logo_image" src="Photos/imageLogo.png">
+                <h1 class="header_logo_text"><span class="text_color_E6A800 logo_style text_font_weight">Kids</span><span class="text_color_2DBC7C logo_style text_font_weight">Code</span></h1>
+            </article>
+            <img class="window_close_icon" id="WindowClose" src="Photos/Close_icon.png">
+        </section>
+        <ul class="menu_window_navigation_panel">
+            <li class="menu_window_navigation_panel_item" id="windowMainMenu"><span class="text_color_2DBC7C">Гл.</span> <span class="text_color_E6A800">меню</span></li>
+            <li class="menu_window_navigation_panel_item" id="windowCourses">Курсы</li>
+            <li class="menu_window_navigation_panel_item" id="windowTeachers">Преподаватели</li>
+            <li class="menu_window_navigation_panel_item" id="windowReviews">Отзывы</li>
+            <li class="menu_window_navigation_panel_item" id="windowContacts">Контакт. данные</li>
+        </ul>
+    </dialog>
+    <header class="header_background">
+        <img class="Header_button_menu" id="MenuButton" src="Photos/Header_button_menu.png">
+        <article class="header_logo header_navigationPanel_logo" id="Logo">
+            <img class="header_logo_image" src="Photos/imageLogo.png">
+            <h1 class="header_logo_text"><span class="text_color_E6A800 logo_style text_font_weight">Kids</span><span class="text_color_2DBC7C logo_style text_font_weight">Code</span></h1>
+          </article>
+          <nav class="header_navigationPanel">
+            <ul class="header_navigationPanel_list text_normal_style">
+                <li class="header_navigationPanel_item" id="Course">Курсы</li>
+                <li class="header_navigationPanel_item" id="Teachers">Преподаватели</li>
+                <li class="header_navigationPanel_item" id="Reviews">Отзывы</li>
+                <li class="header_navigationPanel_item" id="Contacts">Контакты</li>
+            </ul>
+          </nav>
+          <button class="header_button_call text_normal_style">Позвонить</button>
+    </header>
+    <main>
+        <section class="main_course">
+            <h2 class="main_course_title text_color_E6A800">Курсы</h2>
+            <section class="main_course_cards_container">
+                <article class="main_course_cards_item">
+                    <article class="main_course_card_frontend">
+                        <img class="course_card_image_frontend" src="Photos/Frontend icon.png">
+                        <p class="course_text_frontend text_font_weight"><span class="text_color_2DBC7C">Frontend</span>-разработчик</p>
+                        <ul class="text_normal_style course_card_text">
+                            <li><span class="text_font_weight_bold">Предметы изучения:</span> <span class="text_color_DD624A">HTML</span>, <span class="text_color_009CFF">CSS</span>, <span class="text_color_E6A800">JavaScript</span>, <span class="text_color_00D9FF">React</span>.</li><br>
+                            <li><span class="text_font_weight_bold">Кол-во занятий:</span>  <span class="text_color_6DB2DE">34</span> вебинаров</li><br>
+                            <li><span class="text_font_weight_bold">Период обучения:</span> <span class="text_color_6DB2DE">5</span> месяцев</li><br>
+                            <li><span class="text_font_weight_bold">Цена курса:</span> <span class="text_color_6DB2DE">3 560</span> руб./мес.</li>
+                        </ul>
+                    </article>
+                </article>
+                <article class="main_course_cards_item">
+                    <article class="main_course_card_backend">
+                        <img class="course_card_image_backend" src="Photos/Backend icon.png">
+                        <p class="course_text_backend text_font_weight"><span class="text_color_E6A800">Backend</span>-разработчик</p>
+                        <ul class="text_normal_style course_card_text">
+                            <li><span class="text_font_weight_bold">Предметы изучения:</span> <span class="text_color_009CFF">CSS</span>, <span class="text_color_E6A800">JavaScript</span>, <span class="text_color_8EEEFF">SQL</span>, Express.</li><br>
+                            <li><span class="text_font_weight_bold">Кол-во занятий:</span> <span class="text_color_6DB2DE">18</span> вебинаров</li><br>
+                            <li><span class="text_font_weight_bold">Период обучения:</span> <span class="text_color_6DB2DE">4</span> месяцев</li><br>
+                            <li><span class="text_font_weight_bold">Цена курса:</span> <span class="text_color_6DB2DE">1 890</span> руб./мес.</li>
+                        </ul>
+                    </article>
+                </article>
+                <article class="main_course_cards_item">
+                    <article class="main_course_card_fullstack">
+                        <img class="course_card_image_fullstack" src="Photos/Fullstack icon.png">
+                        <p class="course_text_fullstack text_font_weight"><span class="text_color_D41515">Fullstack</span>-разработчик</p>
+                        <ul class="text_normal_style course_card_text">
+                            <li><span class="text_font_weight_bold">Предметы изучения:</span> <span class="text_color_DD624A">HTML</span>, <span class="text_color_009CFF">CSS</span>, <span class="text_color_E6A800">JavaScript</span>, <span class="text_color_00D9FF">React</span>, <span class="text_color_8EEEFF">SQL</span>, Express.</li>
+                            <li><span class="text_font_weight_bold">Кол-во занятий:</span>  <span class="text_color_6DB2DE">34</span> вебинаров</li><br>
+                            <li><span class="text_font_weight_bold">Период обучения:</span> <span class="text_color_6DB2DE">6</span> месяцев</li><br>
+                            <li><span class="text_font_weight_bold">Цена курса:</span> <span class="text_color_6DB2DE">4 060</span> руб./мес.</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <img class="main_course_image_background" src="Photos/code_background.png">  
+        </section>
+    </main>
+    <footer class="footer">
+        <p>©2024 KidsCode все права защищены</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

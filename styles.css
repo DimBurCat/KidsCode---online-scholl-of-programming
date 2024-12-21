@@ -1,0 +1,597 @@
+@media (min-width: 700px) {
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: rgb(0, 0, 0);
+}
+
+main {
+    width: 1440px;
+}
+.header_background {
+    width: 1440px;
+    height: 161px;
+    background: linear-gradient(90deg, #4131B7 0%, #1D1651 60.5%);
+    margin: 0;
+    display: flex;
+    justify-content: space-around
+}
+
+.header_logo {
+    width: 339px;
+    height: 74px;
+    position: relative;
+    top: 43px;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_image { 
+    width: 100px;
+    height: 74px;
+}
+
+.header_navigationPanel_item:hover, .header_navigationPanel_logo:hover{
+    cursor: pointer;
+    color:#2DBC7C;
+}
+
+.logo_style {
+    font-family: 'K2D';
+    font-style: normal;
+    letter-spacing: 0.04em;
+}
+
+.header_logo_text {
+width: 222px;
+font-size: 48px;
+margin: 0 0 0 17px;
+line-height: 62px;
+}
+
+.text_color_2DBC7C {
+    color: #2DBC7C;
+}
+
+.text_color_E6A800 {
+    color: #E6A800;
+    }
+
+.text_color_F987F1 {
+    color: #F987F1;
+    }
+
+.text_color_D41515 {
+    color: #D41515;
+    }
+
+.text_color_6DB2DE {
+    color: #6DB2DE;
+    }
+
+.text_color_DD624A {
+    color: #DD624A;
+    }
+
+.text_color_009CFF {
+    color: #009CFF;
+    }
+
+.text_color_00D9FF {
+    color: #00D9FF;
+    }
+
+.text_color_8EEEFF {
+    color: #8EEEFF;
+    }
+
+.text_font_weight {
+    font-weight: 400;
+}
+
+.text_font_weight_bold {
+    font-weight: 700;
+}
+
+.header_navigationPanel {
+    position: relative;
+    width: 755px;
+    height: 30px;
+    top: 67px;
+}
+
+.header_navigationPanel_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.Header_button_menu {
+    display: none;
+}
+
+.header_button_call {
+    display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+width: 183px;
+height: 50px;
+top: 55px;
+background: #2DBC7C;
+border-radius: 8px;
+border: solid 0;
+font-size: 20px;
+}
+
+.text_normal_style {
+    color: #FFFFFF;
+    font-family: 'Tektur';
+    font-style: normal;
+}
+
+.main_advantages {
+width: 1440px;
+height: 1004px;
+background: url(Photos/image_background.png);
+}
+
+.main_KidsCode {
+    position: relative;
+    left: 35px;
+    top: 47px;
+    width: 917px;
+    height: 310px;
+    background: rgba(51, 36, 99, 0.72);
+    border-radius: 10px;
+    padding: 40px 0 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.main_KidsCode_text { 
+    width: 874px;
+    height: 303px;
+    left: 65px;
+    top: 226px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 75px;
+
+    margin: 0;
+}
+
+.main_advantages_block {
+    position: relative;
+    width: 1280px;
+    height: 544px;
+    left: 80px;
+    top: 86px;
+    background: linear-gradient(90deg, rgba(76, 52, 151, 0.72) 12.5%, rgba(30, 21, 58, 0.72) 100%);
+    border-radius: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.main_title {
+    font-size: 52px;
+    margin: 0 0 15px 0;
+}
+
+.main_advantages_subblock {
+    background: linear-gradient(180deg, #3A2CA8 4%, #4C3593 100%);
+    border-radius: 30px;
+    width: 1188px;
+    height: 422px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_advantages_card {
+    filter: drop-shadow(0px 4px 25px rgba(255, 255, 255, 0.5));
+    background: linear-gradient(90deg, #221842 29.5%, #352665 100%);
+    border-radius: 50px;
+    width: 330px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages_card_icon1 {
+    width: 155.53px;
+    height: 160.09px;
+}
+
+.advantages_card_icon2 {
+    width: 156px;
+    height: 161px;
+}
+
+.advantages_card_icon3 {
+    width: 156px;
+    height: 161px;
+}
+
+.advantages_card_text1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.advantages_card_text2, .advantages_card_text3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.main_course {
+    width: 1440px;
+    height: 1250px;
+    background: #1C1437;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.main_course_title, .main_teachers_title, .main_reviews_title, .main_contacts_title {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-size: 96px;
+    margin: 0 0 40px 0;
+}
+
+.main_course_cards_container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.main_course_cards_item {
+    display: flex;
+    justify-content: center;
+    width: 433px;
+    height: 800px;
+    background: linear-gradient(90deg, #624EFF 0%, #9990DB 100%);
+    border-radius: 45px;
+    padding-top: 14px;
+    filter: drop-shadow(0px 4px 25px rgba(255, 255, 255, 0.5));
+}
+
+.main_course_card_frontend, .main_course_card_backend, .main_course_card_fullstack {
+    background: linear-gradient(90deg, #221842 29.5%, #352665 100%);
+    border-radius: 50px;
+    width: 408px;
+    height: 730px;
+}
+
+.course_card_image_frontend, .course_card_image_backend, .course_card_image_fullstack {
+    position: relative;
+    top: 23px;
+    width: 132px;
+    height: 132px;
+    border-radius: 100px;
+}
+
+.course_text_frontend, .course_text_backend, .course_text_fullstack {
+    color: #FFFFFF;
+    font-family: 'K2D';
+    font-style: italic;
+    font-size: 32px;
+    line-height: 45px;
+    
+}
+
+.course_card_text {
+    font-size: 26px;
+    line-height: 45px;
+    text-align: left;
+    list-style-type: "- ";
+}
+
+.main_course_image_background {
+    opacity: 0.8;
+    box-shadow: inset 30px 0px 50px 50px #1C1437;
+    border-radius: 500px 0px 0px 0px;
+    width: 959px;
+    height: 605px;
+    position: absolute;
+    left: 713px;
+    top: 1850px;
+}
+
+.main_teachers {
+    width: 1440px;
+    height: 2530px;
+    background: linear-gradient(180deg, #2D2472 0%, #564DA0 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.main_teachers_cards_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1404px;
+    height: 596px;
+    background: linear-gradient(90deg, #624EFF 0%, #9990DB 100%);
+    border-radius: 45px;
+    filter: drop-shadow(0px 4px 25px rgba(255, 255, 255, 0.5));
+}
+
+.main_teachers_cards_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1404px;
+    height: 2007px;
+    margin-top: 100px;
+}
+
+.main_teacher_card { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1370px;
+    height: 542px;
+    background: linear-gradient(90deg, #4F3996 7.5%, #221842 100%);
+    border-radius: 50px;
+}
+
+.teacher_card_image {
+    width: 350px;
+    height: 350px;
+    border-radius: 1000px;
+}
+
+.teacher_card_list {
+    list-style: none;
+    width: 870px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.teacher_NP {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+}
+
+.teacher_major {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.teacher_exp {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.main_reviews {
+    width: 1440px;
+    height: 1742px;
+    background: linear-gradient(180deg, #231943 0%, #352567 100%);
+    text-align: center;
+}
+
+.main_review_image {
+    width: 1262.22px;
+    height: 645px;
+    border-radius: 30px;
+}
+
+.main_review1_container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 66px 28px;
+}
+
+.main_review2_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 28px;
+}
+
+.main_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 1460px;
+    background: linear-gradient(180deg, #7163DF 0%, #271F64 100%);
+}
+
+.main_contacts_tel_email_tg {
+    width: 1385px;
+    height: 544px;
+    background: linear-gradient(90deg, rgba(31, 22, 62, 0.72) 12.5%, rgba(71, 34, 188, 0.72) 100%);
+    border-radius: 75px;
+    margin-bottom: 74px;
+}
+
+.contacts_card_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1328.73px;
+    height: 520px;
+    font-size: 51px;
+    font-family: 'Tektur';
+    margin: 0;
+}
+
+.main_contacts_request {
+    width: 1385px;
+    height: 555px;
+    background: linear-gradient(90deg, #221842 29.5%, #352665 100%);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_contacts_request_title {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 550;
+    margin: 15px 0 50px 0;
+}
+
+.main_contacts_request_form {
+    width: 1285px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_request_label {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+.contacts_request_inputLine {
+    width: 936px;
+    height: 121px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Tektur';
+    font-style: normal;
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+
+.contacts_request_button {
+    width: 308px;
+    height: 101px;
+    background: #9990DB;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Tektur';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.main_form {
+    width: 1440px;
+    height: 2045px;
+    background: linear-gradient(180deg, #4E3FC1 0%, #9689FB 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_form_block {
+    width: 1385px;
+    height: 232px;
+    background: linear-gradient(0deg, rgba(34, 22, 73, 0.9) 0%, rgba(100, 77, 173, 0.9) 100%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 40px;
+}
+
+.form_title {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-size: 64px;
+    line-height: 110px;
+}
+
+.form_questions {
+    width: 1385px;
+    height: 1585px;
+    background: linear-gradient(90deg, #221842 29.5%, #352665 100%);
+    border-radius: 50px;
+}
+
+.form_questions_var {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 1000px;
+    
+}
+
+.form_questions_text {
+    font-family: 'Tektur';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 85px;
+}
+
+.question_gender, .question_name, .question_lastname, .question_email, .question_course{
+    width: 403px;
+    height: 213px;
+    margin: 65px 0 0 45px;
+}
+
+.question_course_var {
+    width: 936px;
+    height: 121px;
+    background: linear-gradient(180deg, #7664FD 0%, #2B2174 100%);
+    border-radius: 30px;
+    font-family: 'Tektur';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 85px;
+    color: #BCBABA;
+}
+
+.form_questions_button {
+    width: 355px;
+    height: 101px;
+    background: #9183FF;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Tektur';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.form_button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer {
+    width: 1440px;
+    height: 256px;
+    background: #221842;
+    font-family: 'Tektur';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 85px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-content, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_2.css">
+    <title>KidsCode - Онлайн-школа программирования для детей</title>
+    <link rel="icon" href="Photos/icon.png" type="image/x-icon"></link>
+</head>
+<body>
+    <dialog class="menu_window" id="WindowMenu">
+        <section class="menu_window_upper_panel">
+            <article class="menu_window_logo">
+                <img class="header_logo_image" src="Photos/imageLogo.png">
+                <h1 class="header_logo_text"><span class="text_color_E6A800 logo_style text_font_weight">Kids</span><span class="text_color_2DBC7C logo_style text_font_weight">Code</span></h1>
+            </article>
+            <img class="window_close_icon" id="WindowClose" src="Photos/Close_icon.png">
+        </section>
+        <ul class="menu_window_navigation_panel">
+            <li class="menu_window_navigation_panel_item" id="windowMainMenu"><span class="text_color_2DBC7C">Гл.</span> <span class="text_color_E6A800">меню</span></li>
+            <li class="menu_window_navigation_panel_item" id="windowCourses">Курсы</li>
+            <li class="menu_window_navigation_panel_item" id="windowTeachers">Преподаватели</li>
+            <li class="menu_window_navigation_panel_item" id="windowReviews">Отзывы</li>
+            <li class="menu_window_navigation_panel_item" id="windowContacts">Контакт. данные</li>
+        </ul>
+    </dialog>
+    <header class="header_background">
+        <img class="Header_button_menu" id="MenuButton" src="Photos/Header_button_menu.png">
+      <article class="header_logo header_navigationPanel_logo" id="Logo">
+        <img class="header_logo_image" src="Photos/imageLogo.png">
+        <h1 class="header_logo_text"><span class="text_color_E6A800 logo_style text_font_weight">Kids</span><span class="text_color_2DBC7C logo_style text_font_weight">Code</span></h1>
+      </article>
+      <nav class="header_navigationPanel">
+        <ul class="header_navigationPanel_list text_normal_style">
+            <li class="header_navigationPanel_item" id="Course">Курсы</li>
+            <li class="header_navigationPanel_item" id="Teachers">Преподаватели</li>
+            <li class="header_navigationPanel_item" id="Reviews">Отзывы</li>
+            <li class="header_navigationPanel_item" id="Contacts">Контакты</li>
+        </ul>
+      </nav>
+      <button class="header_button_call text_normal_style">Позвонить</button>
+    </header>
+    <main>
+        <section class="main_contacts">
+            <h2 class="main_contacts_title text_color_E6A800">Наши контактные данные</h2>
+            <article class="main_contacts_tel_email_tg">
+                <ul class="contacts_card_list">
+                    <li class="text_color_F987F1">Телефон: <span class="text_color_009CFF">+7 (647) 542-60-74</span></li>
+                    <li class="text_color_F987F1">Email: <span class="text_color_2DBC7C">KidsUchimCoding@gmail.com</span></li>
+                    <li class="text_color_F987F1">Telegram: <span class="text_color_E6A800">https://web.telegram.org/k/#@KidCd</span></li>
+                </ul>
+            </article>
+            <section class="main_contacts_request">
+                <h3 class="main_contacts_request_title text_color_E6A800">Заявка на обратный звонок</h3>
+                <form class="main_contacts_request_form" method="post">
+                    <label class="text_color_2DBC7C contacts_request_label" for="telephoneNumber">Оставьте свой номер телефона:</label>
+                    <input class="contacts_request_inputLine" type="tel" placeholder="Введите свой номер телефона" id="telephoneNumber">
+                    <button class="contacts_request_button" type="sumbut">Отправить</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>©2024 KidsCode все права защищены</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
